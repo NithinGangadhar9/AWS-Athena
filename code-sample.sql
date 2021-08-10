@@ -48,4 +48,3 @@ ROW FORMAT SERDE 'com.amazon.emr.hive.serde.CloudTrailSerde'
 STORED AS INPUTFORMAT 'com.amazon.emr.cloudtrail.CloudTrailInputFormat'
 OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION 's3://CloudTrail_bucket_name/AWSLogs/Account_ID/';
-
